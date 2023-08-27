@@ -92,7 +92,8 @@ body {
     padding:  0 10px;
     color: #eff1f3;
     width: 90%;
-    margin:0 auto;
+    margin:  0 auto;
+    margin-top: 5px;
     border-radius: 6px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
