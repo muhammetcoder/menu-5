@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    transition: all 200ms;
+}
+
+.logo {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.dizin {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+}
+
+.dizin li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 30%;
+    background-color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.baslik {
+    text-align: center;
+    font-family:sans-serif;
+    color: #2c2c2c;
+}
+
+.menu-alani {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-alani .box {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For screens smaller than 600px wide */
+@media (max-width: 600px) {
+    .menu-alani .box {
+        width: 100%;
+    }
+}
+
+.menux{
+    display: flex;
+    align-items: center;
+    padding:  0 10px;
+    color: #eff1f3;
+    width: 90%;
+    margin:0 auto;
+    border-radius: 6px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menux:hover{
+    opacity: .9;
+}
+.rx{
+    background-color: #1b263b;
+}
+.rs{
+    background-color: #415a77;
+}
+.menux .yemek{
+    margin-right: auto;
+}
+@media (min-width: 600px) {
+    .menux{
+        width: 70%;
+        margin:  0 auto;
+        margin-top: 5px;
+        border-radius: 6px;
+    }
+}
